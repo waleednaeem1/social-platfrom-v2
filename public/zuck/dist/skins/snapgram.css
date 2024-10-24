@@ -1,0 +1,24 @@
+.stories.snapgram .story > .item-link {
+  text-decoration: none;
+  color: #333;
+}
+.stories.snapgram .story > .item-link > .item-preview {
+ 
+  padding: 2px;
+  border-radius: 5%;
+  background: radial-gradient(ellipse at 70% 70%, #ee583f 8%, #d92d77 42%, #bd3381 58%);
+}
+.stories.snapgram .story > .item-link > .item-preview img {
+  border-radius: 5%;
+}
+
+.stories.snapgram .story.seen {
+  opacity: 0.75;
+}
+.stories.snapgram .story.seen > a > .item-preview {
+  
+}
+.stories.snapgram .story.seen > a {
+  color: #333 !important;
+  text-align: left;
+}

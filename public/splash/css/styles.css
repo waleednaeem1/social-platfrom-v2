@@ -1,0 +1,27 @@
+body {
+    background-image: url('/splash/images/background.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    color:#666666;
+    line-height: 26px;
+}
+
+a {
+    color:#666666;
+    text-decoration: none;;
+}
+
+a:hover {
+    color: #a150e0;
+}
+
+.bg-map {
+    background-image: url('/splash/images/map-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-footer {
+    background-color: #f2f2f2;
+    background-size: 100% 100%;
+}
